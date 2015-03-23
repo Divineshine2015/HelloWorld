@@ -12,7 +12,7 @@ namespace HelloWorld //namespace hold a collection of classes and methods. where
         static void Main(string[] args)//method the uses the keyword "main" is where the programs execution would start or begin.
         {
             
-            Console.WriteLine("hello"+ args[0]);
+            Console.WriteLine(args[0] + args[1]);
             Console.ReadLine();
 
         }
