@@ -8,9 +8,14 @@ namespace HelloWorld //namespace hold a collection of classes and methods. where
 {
     class Program //class holds or methods that live in the class and also names the class which can be used to access the methods within the class "house".
     {
+        //string arg = HelloWorld;
         static void Main(string[] args)//method the uses the keyword "main" is where the programs execution would start or begin.
         {
+            
+            Console.WriteLine("hello"+ args[0]);
+            Console.ReadLine();
 
         }
+        
     }
 }
